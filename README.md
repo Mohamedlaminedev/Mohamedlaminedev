@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Mohamedlaminedev
 - 👀 I’m interested in Computer science in general
-- 🌱 I’m currently learning java web design and computer organizatio 
+- 🌱 I’m currently learning java web design and computer organization
 - 💞️ I’m looking to collaborate on .
 - 📫 How to reach me ...
 
