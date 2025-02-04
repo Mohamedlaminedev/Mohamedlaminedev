@@ -1,60 +1,48 @@
-- 👋 Hi, I’m @Mohamedlaminedev
-- 👀 I’m interested in Computer science in general
-- 🌱 I’m currently learning java web design and computer organization
-- 💞️ I’m looking to collaborate on .
-- 📫 How to reach me ...
+# Hi, I'm Mohamedlaminedev 👋
 
-<!---
-Mohamedlaminedev/Mohamedlaminedev is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-def load_game():
-    """
-    Populate the game dictionary by iterating over lines in game.txt.
-    Each line is split by tab, and the first value is cast to integer as the key.
-    The corresponding values are added to a list associated with the key.
-    """
-    game = {}
-    with open('game.txt', 'r') as file:
-        for line in file:
-            values = line.strip().split('\t')
-            key = int(values[0])
-            game[key] = values[1:]
-    return game
+Welcome to my GitHub profile! I'm passionate about computer science and currently working on enhancing my skills in various areas. Here's a little bit about me:
 
-def load_objects():
-    """
-    Populate the objects dictionary by iterating over lines in object.txt.
-    Each line is split by tab, and the first two values are cast to integers for the key.
-    The rest of the values in the line are added to a list associated with the key.
-    """
-    objects = {}
-    with open('object.txt', 'r') as file:
-        for line in file:
-            values = line.strip().split('\t')
-            key = (int(values[0]), int(values[1]), values[2])
-            objects[key] = values[3:]
-    return objects
+- 👀 **Interests**: Computer science, software development, mobile development, web design, backend systems, and game development.
+- 🌱 **Currently Learning**: Java (web design), computer organization, algorithms, and object-oriented programming (OOP).
+- 💞️ **Looking to Collaborate**: I'm open to collaborating on open-source projects, especially in the areas of mobile apps, game development, and backend systems.
+- 📫 **How to Reach Me**: You can reach me via email or GitHub issues for collaboration opportunities.
 
-def load_travel_table():
-    """
-    Populate the travel dictionary by iterating over lines in travel.txt.
-    Each line is split by tab, and the first two values are cast to integers for the key.
-    The third value is associated with the key in the dictionary.
-    """
-    travel = {}
-    with open('travel.txt', 'r') as file:
-        for line in file:
-            values = line.strip().split('\t')
-            key = (int(values[0]), int(values[1]))
-            travel[key] = values[2]
-    return travel
+## Skills
 
-def print_instructions():
-    """
-    Open instructions.txt in read mode and print its contents.
-    """
-    with open('instructions.txt', 'r') as file:
-        print(file.read())
+- **Languages**: Java, C++, Python, Swift, JavaScript (React.js, Node.js), HTML/CSS
+- **Backend**: Firebase, MongoDB, MySQL, Node.js
+- **Frameworks & Tools**: React.js, Bootstrap, Express.js, Kubernetes, Astah UML
+- **Technologies**: REST, JSON, XML, Microservices, SOAP, WSDL, Git, Linux/Unix, Visual Studio
+- **Other**: Game development (Java), iOS development (Swift), Firebase integration, MVC design pattern, OOP principles
 
-# You can call these functions as needed in your adventure game.
+## Projects
+
+Here are some of the projects I've worked on:
+
+- **Budgeting App**: Built using HTML, JS, CSS, React, MongoDB for tracking finances.
+- **Scrabble Game**: Developed a text-based Scrabble game in Java using object-oriented principles.
+- **Library System**: Created a system for managing books and users with Java and OOP.
+- **Calculator**: Developed a basic calculator in Java supporting arithmetic operations.
+- **Personal Websites**: Designed and deployed multiple websites using HTML, CSS, and JavaScript.
+
+## Experience
+
+### Math Tutor at BMCC (Sep 2023 - Dec 2024)
+- Tutored students in algebra, calculus, and statistics.
+- Developed custom practice problems and study materials.
+
+### iOS Developer Intern at Lerna (Jun 2024 - Present)
+- Developed iOS apps using Swift for the front end and Firebase for backend integration.
+- Collaborated on feature development and code reviews.
+
+### Competitions and Challenges
+- **Soccer**: Won a major competition at City College of New York.
+- **Programming Challenges**: Participated in weekly programming challenges to improve problem-solving skills.
+
+## Contact
+
+Feel free to connect with me through GitHub, or reach out via my email for collaboration opportunities.
+
+---
+
+Thank you for checking out my GitHub profile!
